@@ -21,7 +21,7 @@ The framework achieves state-of-the-art or highly competitive results across fiv
 | ROSE-Youtu | 0.453% HTER | 0.531% HTER |
 | OULU-NPU | 0.347% ACER | 0.625% ACER |
 | SiW-Mv2 | 4.66% HTER | 4.39% HTER |
-| OCIM leave-one-out (avg.) | 14.55% HTER | 14.83% HTER |
+| OCIM leave-one-out (avg.) | 14.55% HTER | 14.51% HTER |
 
 Ablation studies (in the accompanying manuscript) further validate the contribution of
 each modality, temporal motion modeling, and the feature-fusion strategy.
