@@ -69,3 +69,18 @@ python train_kd.py --teacher_log_dir logs/RY/imgflowdepth/log_001_...     # dist
 Joint (RA+RM+RY) and cross-dataset (OCIM) training follow the same teacher-then-student
 pattern via `train_joint.py`/`train_joint_kd.py` and `train_ocim.py`/`train_ocim_kd.py`.
 Run any script with `--help` to see the full set of options, and see `common.py` for the expected dataset layout.
+
+## Citation
+
+If you find this code helpful in your work, please cite the accompanying manuscript:
+
+```bibtex
+@article{facepad_flow_depth_distillation,
+  author  = {Jabbar, Muhammad Shahid and Ibrahim, Muhammad Sohail and Khan, Shujaat},
+  title   = {Distilling Structural and Motion Cues for Lightweight Face Presentation Attack Detection},
+  note    = {Manuscript submitted for publication},
+  year    = {2026}
+}
+```
+
+Full citation details will be added here once the manuscript is published.
