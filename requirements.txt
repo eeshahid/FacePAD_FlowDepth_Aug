@@ -1,0 +1,11 @@
+torch>=1.13
+torchvision>=0.14
+opencv-python>=4.5
+numpy>=1.21
+scikit-learn>=1.0
+tqdm>=4.60
+tensorboard>=2.10
+
+# Optional: enables APCER/BPCER/ACER for OULU-NPU (evaluate_all() gracefully skips
+# these metrics if the package is not installed; HTER/AUC/EER are unaffected).
+# oulumetrics
